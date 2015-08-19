@@ -6,6 +6,6 @@ Rails.application.routes.draw do
   resources :directors
   resources :actors
   resources :users
-
+  resources :sessions
 
 end

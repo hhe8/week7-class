@@ -61,6 +61,7 @@ class MoviesController < ApplicationController
     @movie = Movie.find_by(:id => params["id"])
     session["history"] ||= []
     session["history"] << @movie.id
+    # session["history"].push(@movie.id)
   end
 
 end
